@@ -1,0 +1,98 @@
+body{
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    background-color: #FFFBF0;
+}
+header a {
+    font-weight: 500;
+    color: #363958;
+}
+header img {
+    width: 270px;
+}
+.banner{
+    width: 100%;
+    background-image: url(images/Hero-bg/hero-bg.png);
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 100px; */
+    overflow: wrap;
+    padding: 50px 0;
+}
+.banner h1{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-size: 80px;
+}
+.btn-design {
+    background-color: #A4Bc46 !important;
+    color: #fff;
+}
+.banner img {
+    width: 500px;
+}
+.banner p {
+    font-size: 14px;
+    font-weight: 400;
+}
+.man-jacket{
+    margin-top: 50px;
+}
+.man-jacket img {
+    padding: 10px;
+}
+#product h2 {
+    margin-bottom: 30px;
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+
+}
+
+.man-jacket .card {
+    border: 0;
+}
+.man-jacket h5 {
+    color: #363958;
+    font-size: 24px;
+}
+.list-group-section{
+    margin-top: 50px;
+}
+.list-group-section img {
+    width: 100%;
+}
+.list-group-section .list-group-item img{
+       width: 100px;
+}
+.list-group-section .list-group-item  .list {
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+.list-group-section .list-group-item h6 {
+    font-weight: 500;
+    color: #363958;
+}
+footer {
+    margin: 100px 0;
+}
+@media screen and (max-width:786px){
+    .banner h1{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:500px){
+    .banner h1{
+        font-size: 30px;
+    }
+
+    .banner img{
+        width: 200px;
+        height: 200px;
+    }
+}
